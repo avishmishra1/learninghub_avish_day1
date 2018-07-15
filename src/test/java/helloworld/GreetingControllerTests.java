@@ -31,4 +31,4 @@ public class GreetingControllerTests {
                 .andExpect(jsonPath("$.content").value("Hello, Spring Community!"));
     }
 }
-#addedd to test#
+
