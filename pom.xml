@@ -13,11 +13,12 @@
         <version>1.5.8.RELEASE</version>
     </parent>
     <distributionManagement>
-        <snapshotRepository>
-        <id>nexux</id>
-        <url>http://localhost:8081/repository/maven-snapshots/</url>
-            </snapshotRepository>
-        </distributionManagement>
+<snapshotRepository>
+<id>nexus</id>
+<url>http://localhost:8081/repository/maven-snapshots/</url>
+</snapshotRepository>
+</distributionManagement>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
